@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Generate form classes from DBIC schema
 License:    GPL+ or Artistic
@@ -19,6 +19,7 @@ BuildRequires: perl(DateTime::Format::W3CDTF)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(HTML::FormHandler)
 BuildRequires: perl(Moose)
+BuildRequires: perl(SQL::Abstract)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(namespace::autoclean)
 BuildArch: noarch
