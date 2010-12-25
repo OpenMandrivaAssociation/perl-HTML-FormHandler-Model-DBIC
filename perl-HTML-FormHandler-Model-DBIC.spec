@@ -1,5 +1,5 @@
 %define upstream_name    HTML-FormHandler-Model-DBIC
-%define upstream_version 0.12
+%define upstream_version 0.14
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -48,6 +48,8 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc Changes META.yml README
+%{_bindir}/form_generator.pl
+%{_mandir}/man1/*
 %{_mandir}/man3/*
 %perl_vendorlib/*
 /usr/bin/form_generator.pl
