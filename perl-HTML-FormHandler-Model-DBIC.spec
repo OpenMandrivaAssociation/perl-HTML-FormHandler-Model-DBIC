@@ -1,9 +1,9 @@
 %define upstream_name    HTML-FormHandler-Model-DBIC
-%define upstream_version 0.14
+%define upstream_version 0.15
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Generate form classes from DBIC schema
 License:    GPL+ or Artistic
