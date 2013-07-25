@@ -1,2 +1,4 @@
+removed_sources:
+  HTML-FormHandler-Model-DBIC-0.15.tar.gz: e7ceff962e2efd9555a6b64c539c51e293c2aa20
 sources:
-  "HTML-FormHandler-Model-DBIC-0.15.tar.gz": e7ceff962e2efd9555a6b64c539c51e293c2aa20
+  HTML-FormHandler-Model-DBIC-0.26.tar.gz: d3caa6f684428959d23a8cea963272ce3e57a7fe
