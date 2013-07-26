@@ -1,15 +1,15 @@
 %define upstream_name    HTML-FormHandler-Model-DBIC
-%define upstream_version 0.15
+%define upstream_version 0.26
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.26
+Release:	1
 
 Summary:	Generate form classes from DBIC schema
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-FormHandler-Model-DBIC-0.26.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(DBIx::Class)
@@ -69,4 +69,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 - Add SQL::Abstract as a dependency
 - Upgraded to 0.14 and fixed the build system.
 - import perl-HTML-FormHandler-Model-DBIC
+
 
