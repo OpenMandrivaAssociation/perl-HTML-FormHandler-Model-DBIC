@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.26
-Release:	1
+Release:	2
 
 Summary:	Generate form classes from DBIC schema
 License:	GPL+ or Artistic
