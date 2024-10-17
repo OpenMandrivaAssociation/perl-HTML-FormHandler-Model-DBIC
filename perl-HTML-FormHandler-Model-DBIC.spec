@@ -8,7 +8,7 @@ Release:	3
 Summary:	Generate form classes from DBIC schema
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-FormHandler-Model-DBIC-0.26.tar.gz
 
 BuildRequires:	perl-devel
